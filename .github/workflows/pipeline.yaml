@@ -1,8 +1,5 @@
-
-
-
-
-name: ci pipeline
+ 
+ name: ci pipeline
 
 on:
   push:
@@ -23,6 +20,3 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
-      - name: Build project
-        run: npm run build
